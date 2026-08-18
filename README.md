@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="./lavender-theme-poster.png" alt="Lavender Theme" width="100%">
+</p>
+
+<h1 align="center">💜 Lavender Theme for VS Code</h1>
+
+<p align="center">
+  A soft, dreamy collection of lavender purple themes for Visual Studio Code.
+</p>
 # 💜 Lavender Theme for VS Code
 
 > A soft, dreamy purple theme for Visual Studio Code 💜✨
