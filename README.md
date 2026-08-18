@@ -1,16 +1,68 @@
-# lavender-theme README
+# 💜 Lavender Theme for VS Code
 
-## Working with Markdown
+> A soft, dreamy purple theme for Visual Studio Code 💜✨
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+**Lavender Theme** is a purple-themed collection for VS Code, designed for developers who love cozy, clean, and aesthetic editor colors.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## 🎨 Themes
 
-## For more information
+| Theme                    | Mode  | Style          |
+| ------------------------ | ----- | -------------- |
+| 🌌 Lavender Theme Dark 1 | Dark  | Deep & cozy    |
+| 🌙 Lavender Theme Dark 2 | Dark  | Soft & dreamy  |
+| ☁️ Lavender Theme Light  | Light | Clean & gentle |
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## ✨ Features
 
-**Enjoy!**
+* 💜 Beautiful lavender and purple color palette
+* 🌙 Two dark themes
+* ☀️ One light theme
+* 🎀 Simple and aesthetic design
+* 🧑‍💻 Made for Visual Studio Code
+
+## 🚀 Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/hoshiko9011/lavender-theme.git
+```
+
+2. Open the project in **Visual Studio Code**.
+3. Press `F5` to open the Extension Development Host.
+4. Press `Ctrl + Shift + P`.
+5. Search for **Preferences: Color Theme**.
+6. Choose your favorite **Lavender Theme** 💜
+
+## 📁 Project Structure
+
+```text
+lavender-theme/
+├── themes/
+│   ├── Lavender Dark1-color-theme.json
+│   ├── Lavender Dark2-color-theme.json
+│   └── Lavender Light-color-theme.json
+├── package.json
+├── CHANGELOG.md
+└── README.md
+```
+
+## 🛠️ Built With
+
+* Visual Studio Code Theme API
+* JSON
+* A lot of 💜
+
+## 🌱 Status
+
+🚧 **Early Development — v0.0.1**
+
+Lavender Theme is still being improved. More colors, adjustments, and features may be added in future versions.
+
+## 💜 Created by Hoshiko
+
+Made with code and a love for purple.
+
+If you like **Lavender Theme**, consider giving the repository a ⭐
+
+> **Stay cozy. Keep coding. Keep it lavender. 💜**
