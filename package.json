@@ -1,0 +1,31 @@
+{
+  "name": "lavender-theme",
+  "displayName": "Lavender Theme",
+  "description": "A beautiful dark and light purple theme for Visual Studio Code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lavender Theme Dark 1",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lavender Dark1-color-theme.json"
+      },
+      {
+        "label": "Lavender Theme Dark 2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lavender Dark2-color-theme.json"
+      },
+      {
+        "label": "Lavender Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/Lavender Light-color-theme.json"
+      }
+    ]
+  }
+}
