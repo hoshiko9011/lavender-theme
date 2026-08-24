@@ -1,19 +1,23 @@
 {
-  "name": "lavender-theme",
+  "name": "lavender-purple-theme",
   "displayName": "Lavender Theme",
   "description": "A soft, dreamy collection of lavender purple themes for Visual Studio Code.",
   "version": "0.0.1",
   "publisher": "bokkishita",
   "license": "MIT",
   "icon": "icon.png",
+
   "repository": {
     "type": "git",
     "url": "https://github.com/hoshiko9011/lavender-theme.git"
   },
+
   "bugs": {
     "url": "https://github.com/hoshiko9011/lavender-theme/issues"
   },
+
   "homepage": "https://github.com/hoshiko9011/lavender-theme",
+
   "keywords": [
     "theme",
     "color-theme",
@@ -26,16 +30,20 @@
     "visual-studio-code",
     "vscode"
   ],
+
   "engines": {
     "vscode": "^1.125.0"
   },
+
   "categories": [
     "Themes"
   ],
+
   "galleryBanner": {
     "color": "#9B7EBD",
     "theme": "dark"
   },
+
   "contributes": {
     "themes": [
       {
