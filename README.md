@@ -68,7 +68,7 @@ lavender-theme/
 
 Lavender Theme is still being improved. More colors, adjustments, and features may be added in future versions.
 
-## 💜 Created by Hoshiko
+## Created by Hoshiko
 
 Made with code and a love for purple.
 
