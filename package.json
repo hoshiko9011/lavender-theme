@@ -1,66 +1,55 @@
-{
-  "name": "lavender-purple-theme",
-  "displayName": "Lavender Purple Theme",
-  "description": "A soft, dreamy collection of lavender purple themes for Visual Studio Code.",
-  "version": "0.0.1",
-  "publisher": "bokkishita",
-  "license": "MIT",
-  "icon": "icon.png",
+<p align="center">
+  <img src="./lavender-theme-poster.png" alt="Lavender Purple Theme" width="100%">
+</p>
 
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hoshiko9011/lavender-theme.git"
-  },
+<h1 align="center">💜 Lavender Purple Theme</h1>
 
-  "bugs": {
-    "url": "https://github.com/hoshiko9011/lavender-theme/issues"
-  },
+<p align="center">
+  A soft, dreamy and aesthetic purple theme collection for Visual Studio Code.
+</p>
 
-  "homepage": "https://github.com/hoshiko9011/lavender-theme",
+<p align="center">
+  <strong>🌌 Dark • 🌙 Dreamy • ☁️ Light • 💜 Lavender</strong>
+</p>
 
-  "keywords": [
-    "theme",
-    "color-theme",
-    "dark-theme",
-    "light-theme",
-    "purple",
-    "lavender",
-    "aesthetic",
-    "cozy",
-    "visual-studio-code",
-    "vscode"
-  ],
+---
 
-  "engines": {
-    "vscode": "^1.125.0"
-  },
+## 💜 About
 
-  "categories": [
-    "Themes"
-  ],
+**Lavender Purple Theme** is a collection of soft and aesthetic purple themes made for **Visual Studio Code**.
 
-  "galleryBanner": {
-    "color": "#9B7EBD",
-    "theme": "dark"
-  },
+It is designed for developers who enjoy a cozy, clean and relaxing coding environment with beautiful lavender and purple colors.
 
-  "contributes": {
-    "themes": [
-      {
-        "label": "Lavender Theme Dark 1",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Lavender Dark1-color-theme.json"
-      },
-      {
-        "label": "Lavender Theme Dark 2",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Lavender Dark2-color-theme.json"
-      },
-      {
-        "label": "Lavender Theme Light",
-        "uiTheme": "vs",
-        "path": "./themes/Lavender Light-color-theme.json"
-      }
-    ]
-  }
-}
+Whether you prefer a deep dark editor or a gentle light interface, Lavender Purple Theme has something for you. 💜
+
+---
+
+## 🎨 Available Themes
+
+| Theme | Mode | Style |
+|---|---|---|
+| 🌌 **Lavender Theme Dark 1** | Dark | Deep & Cozy |
+| 🌙 **Lavender Theme Dark 2** | Dark | Soft & Dreamy |
+| ☁️ **Lavender Theme Light** | Light | Clean & Gentle |
+
+---
+
+## ✨ Features
+
+- 💜 Soft lavender and purple color palette
+- 🌌 Two beautiful dark themes
+- ☁️ One clean light theme
+- 🎀 Cozy and aesthetic design
+- 👨‍💻 Designed for Visual Studio Code
+- 🖥️ Comfortable for everyday coding
+- 🌙 Purple-focused editor experience
+- 🪻 Simple and relaxing interface
+
+---
+
+## 🚀 Installation
+
+### Option 1: Clone the Repository
+
+```bash
+git clone https://github.com/hoshiko9011/lavender-theme.git
