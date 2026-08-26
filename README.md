@@ -7,7 +7,7 @@
 <p align="center">
   A soft, dreamy collection of lavender purple themes for Visual Studio Code.
 </p>
-# 💜 Lavender Theme for VS Code
+# 💜 Lavender Theme for VS Code !
 
 > A soft, dreamy purple theme for Visual Studio Code 💜✨
 
