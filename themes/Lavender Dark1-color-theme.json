@@ -69,6 +69,24 @@
     "list.focusBackground": "#3B9DBF33",
     "list.focusForeground": "#D07CFF",
     "list.highlightForeground": "#D07CFF",
+    "list.inactiveFocusBackground": "#3B9DBF22",
+    "quickInputList.focusBackground": "#3B9DBF44",
+    "quickInputList.focusForeground": "#D07CFF",
+    "menu.background": "#1A1730",
+    "menu.foreground": "#C0A9FF",
+    "menu.selectionBackground": "#3B9DBF33",
+    "menu.selectionForeground": "#D07CFF",
+    "settings.headerForeground": "#C0A9FF",
+    "settings.modifiedItemIndicator": "#D07CFF",
+    "editorWidget.background": "#1A1730",
+    "editorWidget.border": "#3B9DBF44",
+    "editorHoverWidget.background": "#1A1730",
+    "editorHoverWidget.border": "#3B9DBF44",
+    "editorSuggestWidget.background": "#1A1730",
+    "editorSuggestWidget.border": "#3B9DBF44",
+    "editorSuggestWidget.selectedBackground": "#3B9DBF33",
+    "editorSuggestWidget.selectedForeground": "#D07CFF",
+    "editorSuggestWidget.highlightForeground": "#D07CFF",
     "gitDecoration.addedResourceForeground": "#3B9DBF",
     "gitDecoration.modifiedResourceForeground": "#C0A9FF",
     "gitDecoration.deletedResourceForeground": "#D07CFF",
@@ -123,7 +141,13 @@
     "string": "#C0A9FF",
     "number": "#7E57C2",
     "regexp": "#3B9DBF",
+<<<<<<< HEAD
     "operator": "#3B9DBF"
+=======
+    "operator": "#3B9DBF",
+    "decorator": "#3B9DBF",
+    "label": "#D07CFF"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
   },
   "tokenColors": [
     {
@@ -227,7 +251,10 @@
         "support.function",
         "keyword.other.special-method",
         "entity.name.method",
-        "meta.method"
+        "meta.method",
+        "entity.name.method.js",
+        "meta.class-method.js entity.name.function.js",
+        "variable.function.constructor"
       ],
       "settings": {
         "foreground": "#3B9DBF"
@@ -246,7 +273,15 @@
         "support.type.builtin",
         "entity.name.type.class",
         "entity.name.type.module",
+<<<<<<< HEAD
         "entity.name.type.alias"
+=======
+        "entity.name.type.alias",
+        "entity.name",
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "foreground": "#7E57C2"
@@ -280,7 +315,14 @@
         "string.quoted",
         "string.template",
         "constant.other.symbol",
+<<<<<<< HEAD
         "constant.other.key"
+=======
+        "constant.other.key",
+        "entity.other.inherited-class",
+        "markup.heading",
+        "markup.inserted.git_gutter"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "foreground": "#C0A9FF"
@@ -306,7 +348,12 @@
       "scope": [
         "entity.name.tag",
         "meta.tag",
+<<<<<<< HEAD
         "meta.tag.sgml"
+=======
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "foreground": "#D07CFF"
@@ -316,9 +363,24 @@
       "name": "Attributes (HTML, CSS, XML)",
       "scope": [
         "entity.other.attribute-name",
+<<<<<<< HEAD
         "support.type.property-name.css",
         "support.type.property-name.scss",
         "support.type.property-name.less"
+=======
+        "text.html.basic entity.other.attribute-name.html",
+        "text.html.basic entity.other.attribute-name",
+        "entity.other.attribute-name.class",
+        "support.type.property-name.css",
+        "support.type.property-name.scss",
+        "support.type.property-name.less",
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "foreground": "#7E57C2"
@@ -332,7 +394,13 @@
         "entity.name.type.annotation",
         "punctuation.decorator",
         "entity.name.function.decorator",
+<<<<<<< HEAD
         "meta.attribute.rust"
+=======
+        "meta.attribute.rust",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "fontStyle": "italic",
@@ -353,7 +421,12 @@
       "name": "JSON / YAML Keys",
       "scope": [
         "support.type.property-name.json",
+<<<<<<< HEAD
         "entity.name.tag.yaml"
+=======
+        "entity.name.tag.yaml",
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "foreground": "#D07CFF"
@@ -363,14 +436,194 @@
       "name": "Markdown - Structure & Formatting",
       "scope": [
         "text.html.markdown",
+<<<<<<< HEAD
         "markup.heading",
         "markup.bold",
         "markup.italic",
         "markup.raw.block",
         "markup.inline.raw"
+=======
+        "punctuation.definition.list_item.markdown",
+        "markup.raw.block.fenced.markdown",
+        "punctuation.definition.fenced.markdown",
+        "markup.table"
       ],
       "settings": {
         "foreground": "#C0A9FF"
+      }
+    },
+    {
+      "name": "Markdown - Headings & Inline Code",
+      "scope": [
+        "markdown.heading",
+        "markup.heading entity.name",
+        "text.html.markdown markup.inline.raw.markdown",
+        "markup.raw.block"
+      ],
+      "settings": {
+        "foreground": "#D07CFF"
+      }
+    },
+    {
+      "name": "Markdown - Bold & Italic",
+      "scope": [
+        "markup.italic",
+        "markup.bold",
+        "markup.bold markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#D07CFF"
+      }
+    },
+    {
+      "name": "Go - Package & Imports",
+      "scope": [
+        "source.go storage.type.package.go",
+        "meta.import.go"
+      ],
+      "settings": {
+        "foreground": "#D07CFF"
+      }
+    },
+    {
+      "name": "Rust - Lifetimes & Macros",
+      "scope": [
+        "entity.name.type.lifetime.rust",
+        "meta.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#3B9DBF"
+      }
+    },
+    {
+      "name": "Python - Decorators & Magic Methods",
+      "scope": [
+        "meta.function.decorator.python",
+        "entity.name.function.magic.python"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#3B9DBF"
+      }
+    },
+    {
+      "name": "SQL - Keywords & Functions",
+      "scope": [
+        "keyword.other.DDL.sql",
+        "keyword.other.DML.sql",
+        "support.function.sql"
+      ],
+      "settings": {
+        "foreground": "#D07CFF"
+      }
+    },
+    {
+      "name": "Java - Annotations & Imports",
+      "scope": [
+        "meta.annotation.java",
+        "meta.import.java"
+      ],
+      "settings": {
+        "foreground": "#3B9DBF"
+      }
+    },
+    {
+      "name": "C# - Attributes & Keywords",
+      "scope": [
+        "meta.attribute.cs",
+        "keyword.other.modifier.cs"
+      ],
+      "settings": {
+        "foreground": "#D07CFF"
+      }
+    },
+    {
+      "name": "Dart - Keywords & Types",
+      "scope": [
+        "keyword.other.dart",
+        "support.type.dart"
+      ],
+      "settings": {
+        "foreground": "#D07CFF"
+      }
+    },
+    {
+      "name": "Flutter - Widgets",
+      "scope": [
+        "entity.name.class.widget.dart",
+        "support.type.widget.dart"
+      ],
+      "settings": {
+        "foreground": "#7E57C2"
+      }
+    },
+    {
+      "name": "Swift - Keywords & Types",
+      "scope": [
+        "keyword.other.swift",
+        "support.type.swift"
+      ],
+      "settings": {
+        "foreground": "#D07CFF"
+      }
+    },
+    {
+      "name": "PHP - Keywords & Types",
+      "scope": [
+        "keyword.other.php",
+        "support.type.php"
+      ],
+      "settings": {
+        "foreground": "#D07CFF"
+      }
+    },
+    {
+      "name": "Ruby - Keywords & Symbols",
+      "scope": [
+        "keyword.other.ruby",
+        "constant.other.symbol.ruby"
+      ],
+      "settings": {
+        "foreground": "#D07CFF"
+      }
+    },
+    {
+      "name": "Markup - Git Actions",
+      "scope": [
+        "markup.inserted"
+      ],
+      "settings": {
+        "foreground": "#3B9DBF"
+      }
+    },
+    {
+      "name": "Markup - Git Deleted",
+      "scope": [
+        "markup.deleted"
+      ],
+      "settings": {
+        "foreground": "#D07CFF"
+      }
+    },
+    {
+      "name": "Markup - Git Changed",
+      "scope": [
+        "markup.changed"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
+      ],
+      "settings": {
+        "foreground": "#C0A9FF"
+      }
+    },
+    {
+      "name": "Invalid & Illegal Syntax",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#D07CFF"
       }
     }
   ]
