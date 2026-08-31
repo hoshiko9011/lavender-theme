@@ -69,6 +69,24 @@
     "list.focusBackground": "#E8DEFF88",
     "list.focusForeground": "#2D2A3E",
     "list.highlightForeground": "#C792EA",
+    "list.inactiveFocusBackground": "#E8DEFF44",
+    "quickInputList.focusBackground": "#E8DEFF",
+    "quickInputList.focusForeground": "#2D2A3E",
+    "menu.background": "#FFFFFF",
+    "menu.foreground": "#2D2A3E",
+    "menu.selectionBackground": "#E8DEFF",
+    "menu.selectionForeground": "#2D2A3E",
+    "settings.headerForeground": "#4A3F6B",
+    "settings.modifiedItemIndicator": "#C792EA",
+    "editorWidget.background": "#FFFFFF",
+    "editorWidget.border": "#E8DEFF",
+    "editorHoverWidget.background": "#FFFFFF",
+    "editorHoverWidget.border": "#E8DEFF",
+    "editorSuggestWidget.background": "#FFFFFF",
+    "editorSuggestWidget.border": "#E8DEFF",
+    "editorSuggestWidget.selectedBackground": "#E8DEFF",
+    "editorSuggestWidget.selectedForeground": "#2D2A3E",
+    "editorSuggestWidget.highlightForeground": "#C792EA",
     "gitDecoration.addedResourceForeground": "#7C6CF5",
     "gitDecoration.modifiedResourceForeground": "#C792EA",
     "gitDecoration.deletedResourceForeground": "#EF4444",
@@ -123,7 +141,13 @@
     "string": "#C084FC",
     "number": "#F59EAE",
     "regexp": "#7C6CF5",
+<<<<<<< HEAD
     "operator": "#7C6CF5"
+=======
+    "operator": "#7C6CF5",
+    "decorator": "#7C6CF5",
+    "label": "#8B5CF6"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
   },
   "tokenColors": [
     {
@@ -477,12 +501,103 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Invalid & Illegal Syntax",
       "scope": [
         "invalid",
         "invalid.illegal"
       ],
       "settings": {
+=======
+      "name": "Go - Package & Imports",
+      "scope": [
+        "source.go storage.type.package.go",
+        "meta.import.go"
+      ],
+      "settings": {
+        "foreground": "#8B5CF6"
+      }
+    },
+    {
+      "name": "Rust - Lifetimes & Macros",
+      "scope": [
+        "entity.name.type.lifetime.rust",
+        "meta.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#7C6CF5"
+      }
+    },
+    {
+      "name": "Python - Decorators & Magic Methods",
+      "scope": [
+        "meta.function.decorator.python",
+        "entity.name.function.magic.python"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#7C6CF5"
+      }
+    },
+    {
+      "name": "SQL - Keywords & Functions",
+      "scope": [
+        "keyword.other.DDL.sql",
+        "keyword.other.DML.sql",
+        "support.function.sql"
+      ],
+      "settings": {
+        "foreground": "#8B5CF6"
+      }
+    },
+    {
+      "name": "Java - Annotations & Imports",
+      "scope": [
+        "meta.annotation.java",
+        "meta.import.java"
+      ],
+      "settings": {
+        "foreground": "#7C6CF5"
+      }
+    },
+    {
+      "name": "C# - Attributes & Keywords",
+      "scope": [
+        "meta.attribute.cs",
+        "keyword.other.modifier.cs"
+      ],
+      "settings": {
+        "foreground": "#8B5CF6"
+      }
+    },
+    {
+      "name": "Dart - Keywords & Types",ش
+      "scope": [
+        "keyword.other.dart",
+        "support.type.dart"
+      ],
+      "settings": {
+        "foreground": "#8B5CF6"
+      }
+    },
+    {
+      "name": "Flutter - Widgets",
+      "scope": [
+        "entity.name.class.widget.dart",
+        "support.type.widget.dart"
+      ],
+      "settings": {
+        "foreground": "#8B5CF6"
+      }
+    },
+    {
+      "name": "Invalid & Illegal Syntax",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
         "foreground": "#EF4444"
       }
     }
