@@ -69,6 +69,27 @@
     "list.focusBackground": "#463A6D",
     "list.focusForeground": "#F2ECFF",
     "list.highlightForeground": "#C792EA",
+<<<<<<< HEAD
+=======
+    "list.inactiveFocusBackground": "#463A6D33",
+    "quickInputList.focusBackground": "#463A6D",
+    "quickInputList.focusForeground": "#F2ECFF",
+    "menu.background": "#231F35",
+    "menu.foreground": "#F2ECFF",
+    "menu.selectionBackground": "#463A6D",
+    "menu.selectionForeground": "#F2ECFF",
+    "settings.headerForeground": "#F2ECFF",
+    "settings.modifiedItemIndicator": "#C792EA",
+    "editorWidget.background": "#231F35",
+    "editorWidget.border": "#322B4D",
+    "editorHoverWidget.background": "#231F35",
+    "editorHoverWidget.border": "#322B4D",
+    "editorSuggestWidget.background": "#231F35",
+    "editorSuggestWidget.border": "#322B4D",
+    "editorSuggestWidget.selectedBackground": "#463A6D",
+    "editorSuggestWidget.selectedForeground": "#F2ECFF",
+    "editorSuggestWidget.highlightForeground": "#C792EA",
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
     "gitDecoration.addedResourceForeground": "#A7F3D0",
     "gitDecoration.modifiedResourceForeground": "#C4B5FD",
     "gitDecoration.deletedResourceForeground": "#FB7185",
@@ -123,7 +144,13 @@
     "string": "#D8B4FE",
     "number": "#F9A8D4",
     "regexp": "#A78BFA",
+<<<<<<< HEAD
     "operator": "#B794F4"
+=======
+    "operator": "#B794F4",
+    "decorator": "#A78BFA",
+    "label": "#C792EA"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
   },
   "tokenColors": [
     {
@@ -148,7 +175,12 @@
         "variable.other.object.property",
         "string constant.other.placeholder",
         "meta.block variable.other",
+<<<<<<< HEAD
         "support.other.variable"
+=======
+        "support.other.variable",
+        "string.other.link"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "foreground": "#F2ECFF"
@@ -213,7 +245,12 @@
         "punctuation.separator.inheritance.php",
         "punctuation.section.embedded",
         "keyword.other.template",
+<<<<<<< HEAD
         "keyword.other.substitution"
+=======
+        "keyword.other.substitution",
+        "meta.tag"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "foreground": "#B794F4"
@@ -300,7 +337,14 @@
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
+<<<<<<< HEAD
         "support.type.sys-types"
+=======
+        "support.type.sys-types",
+        "entity.name.module.js",
+        "variable.import.parameter.js",
+        "variable.other.class.js"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "foreground": "#E879F9"
@@ -349,7 +393,12 @@
         "source.stylus support.type.property-name",
         "source.postcss support.type.property-name",
         "support.type.property-name.css",
+<<<<<<< HEAD
         "constant.other.color"
+=======
+        "constant.other.color",
+        "source.sass keyword.control"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "foreground": "#C4B5FD"
@@ -368,7 +417,11 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Decorators & Annotations (Python, Java, TS, Rust)",
+=======
+      "name": "Decorators & Annotations",
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       "scope": [
         "meta.annotation",
         "meta.decorator",
@@ -444,14 +497,60 @@
       }
     },
     {
+<<<<<<< HEAD
       "name": "Invalid & Illegal Syntax",
       "scope": [
         "invalid",
         "invalid.illegal"
+=======
+      "name": "Markup - Git Actions",
+      "scope": [
+        "markup.inserted"
+      ],
+      "settings": {
+        "foreground": "#A7F3D0"
+      }
+    },
+    {
+      "name": "Markup - Git Deleted",
+      "scope": [
+        "markup.deleted"
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
       ],
       "settings": {
         "foreground": "#FB7185"
       }
+<<<<<<< HEAD
     }
   ]
 }
+=======
+    },
+    {
+      "name": "Markup - Git Changed",
+      "scope": [
+        "markup.changed"
+      ],
+      "settings": {
+        "foreground": "#C4B5FD"
+      }
+    },
+    {
+      "name": "Go - Package & Imports",
+      "scope": [
+        "source.go storage.type.package.go",
+        "meta.import.go"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Rust - Lifetimes & Macros",
+      "scope": [
+        "entity.name.type.lifetime.rust",
+        "meta.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#A78B
+>>>>>>> bc16fd0 (Update Lavender themes with new colors and improvements)
