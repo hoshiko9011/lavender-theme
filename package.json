@@ -1,55 +1,68 @@
-<p align="center">
-  <img src="./lavender-theme-poster.png" alt="Lavender Purple Theme" width="100%">
-</p>
-
-<h1 align="center">💜 Lavender Purple Theme</h1>
-
-<p align="center">
-  A soft, dreamy and aesthetic purple theme collection for Visual Studio Code.
-</p>
-
-<p align="center">
-  <strong>🌌 Dark • 🌙 Dreamy • ☁️ Light • 💜 Lavender</strong>
-</p>
-
----
-
-## 💜 About
-
-**Lavender Purple Theme** is a collection of soft and aesthetic purple themes made for **Visual Studio Code**.
-
-It is designed for developers who enjoy a cozy, clean and relaxing coding environment with beautiful lavender and purple colors.
-
-Whether you prefer a deep dark editor or a gentle light interface, Lavender Purple Theme has something for you. 💜
-
----
-
-## 🎨 Available Themes
-
-| Theme | Mode | Style |
-|---|---|---|
-| 🌌 **Lavender Theme Dark 1** | Dark | Deep & Cozy |
-| 🌙 **Lavender Theme Dark 2** | Dark | Soft & Dreamy |
-| ☁️ **Lavender Theme Light** | Light | Clean & Gentle |
-
----
-
-## ✨ Features
-
-- 💜 Soft lavender and purple color palette
-- 🌌 Two beautiful dark themes
-- ☁️ One clean light theme
-- 🎀 Cozy and aesthetic design
-- 👨‍💻 Designed for Visual Studio Code
-- 🖥️ Comfortable for everyday coding
-- 🌙 Purple-focused editor experience
-- 🪻 Simple and relaxing interface
-
----
-
-## 🚀 Installation
-
-### Option 1: Clone the Repository
-
-```bash
-git clone https://github.com/hoshiko9011/lavender-theme.git
+{
+  "name": "lavender-theme",
+  "displayName": "Lavender Purple Theme",
+  "description": "A soft, dreamy and aesthetic purple theme collection for Visual Studio Code.",
+  "version": "1.2.0",
+  "publisher": "bokkishita",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "lavender-theme-poster.png",
+  "galleryBanner": {
+    "color": "#1E1B2E",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lavender Dark 1",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lavender Dark 1-color-theme.json"
+      },
+      {
+        "label": "Lavender Dark 2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lavender Dark 2-color-theme.json"
+      },
+      {
+        "label": "Lavender Light",
+        "uiTheme": "vs",
+        "path": "./themes/Lavender Light-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoshiko9011/lavender-theme.git"
+  },
+  "keywords": [
+    "lavender",
+    "purple",
+    "theme",
+    "dark",
+    "light",
+    "aesthetic",
+    "soft",
+    "dreamy",
+    "cozy",
+    "color-theme",
+    "lavender-theme",
+    "purple-theme"
+  ],
+  "author": "hoshiko9011",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoshiko9011/lavender-theme/issues"
+  },
+  "homepage": "https://github.com/hoshiko9011/lavender-theme#readme",
+  "badges": [
+    {
+      "url": "https://img.shields.io/badge/theme-lavender-purple",
+      "href": "https://github.com/hoshiko9011/lavender-theme",
+      "description": "Lavender Purple Theme"
+    }
+  ]
+}
