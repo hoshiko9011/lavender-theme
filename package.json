@@ -3,14 +3,14 @@
   "displayName": "Lavender Purple Theme",
   "description": "A soft, dreamy and aesthetic purple theme collection for Visual Studio Code — with broad language syntax support.",
   "version": "1.3.0",
-  "publisher": "bokkishita"
+  "publisher": "bokkishita",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
     "Themes"
   ],
-  "icon": "lavender-theme-poster.png",
+  "icon": "icon.png",
   "galleryBanner": {
     "color": "#1E1B2E",
     "theme": "dark"
