@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.png" alt="Lavender Theme for Visual Studio Code" width="100%" />
+  <img src="docs/banner.svg" alt="Lavender Theme for Visual Studio Code" width="100%" />
 </p>
 
 <h1 align="center">Lavender Theme</h1>
