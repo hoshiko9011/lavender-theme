@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="Lavender Theme for Visual Studio Code" width="100%" />
+  <img src="docs/banner.png" alt="Lavender Theme for Visual Studio Code" width="100%" />
 </p>
 
 <h1 align="center">Lavender Theme</h1>
@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=hoshiko9011.lavender-theme">
-    <img src="https://img.shields.io/visual-studio-marketplace/v/hoshiko9011.lavender-theme?label=Marketplace&amp;color=7E57C2" alt="Marketplace version" />
+  <a href="https://marketplace.visualstudio.com/items?itemName=bokkishita.lavender-purple-theme">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/bokkishita.lavender-purple-theme?label=Marketplace&color=7E57C2" alt="Marketplace version" />
   </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=hoshiko9011.lavender-theme">
-    <img src="https://img.shields.io/visual-studio-marketplace/d/hoshiko9011.lavender-theme?label=Installs&amp;color=C0A9FF" alt="Installs" />
+  <a href="https://marketplace.visualstudio.com/items?itemName=bokkishita.lavender-purple-theme">
+    <img src="https://img.shields.io/visual-studio-marketplace/d/bokkishita.lavender-purple-theme?label=Installs&color=C0A9FF" alt="Installs" />
   </a>
   <a href="https://github.com/hoshiko9011/lavender-theme/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-1E1B2E?labelColor=7E57C2" alt="MIT License" />
