@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Lavender Theme for Visual Studio Code">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A1730"/>
+      <stop offset="50%" stop-color="#1E1B2E"/>
+      <stop offset="100%" stop-color="#231F3A"/>
+    </linearGradient>
+    <linearGradient id="bloom" x1="0" y1="0.5" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#7E57C2" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#C0A9FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#D07CFF" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#bloom)"/>
+
+  <!-- Soft ambient blooms -->
+  <circle cx="160" cy="320" r="180" fill="#7E57C2" opacity="0.2" filter="url(#soft)"/>
+  <circle cx="1040" cy="80" r="160" fill="#D07CFF" opacity="0.16" filter="url(#soft)"/>
+  <circle cx="700" cy="360" r="120" fill="#C0A9FF" opacity="0.1" filter="url(#soft)"/>
+
+  <!-- Thin frame lines -->
+  <rect x="48" y="48" width="1104" height="304" fill="none" stroke="#3B9DBF22" stroke-width="1"/>
+
+  <!-- Wordmark -->
+  <text x="600" y="175" text-anchor="middle" fill="#F2ECFF" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-style="italic">Lavender</text>
+  <text x="600" y="215" text-anchor="middle" fill="#8F84B5" font-family="system-ui, -apple-system, sans-serif" font-size="14" letter-spacing="6">THEME FOR VISUAL STUDIO CODE</text>
+
+  <!-- Divider -->
+  <line x1="520" y1="240" x2="680" y2="240" stroke="#7E57C2" stroke-width="1" opacity="0.6"/>
+
+  <!-- Palette dots -->
+  <g transform="translate(510, 268)">
+    <circle cx="0" cy="0" r="10" fill="#1E1B2E" stroke="#7E57C2"/>
+    <circle cx="36" cy="0" r="10" fill="#C0A9FF"/>
+    <circle cx="72" cy="0" r="10" fill="#D07CFF"/>
+    <circle cx="108" cy="0" r="10" fill="#3B9DBF"/>
+    <circle cx="144" cy="0" r="10" fill="#F8F5FF" stroke="#C9BEE8"/>
+  </g>
+
+  <text x="600" y="320" text-anchor="middle" fill="#8F84B5" font-family="system-ui, -apple-system, sans-serif" font-size="13">Dark 1 · Dark 2 · Light</text>
+</svg>
