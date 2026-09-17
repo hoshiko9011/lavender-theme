@@ -1,1 +1,89 @@
-{{pkg_content}}
+{
+  "name": "lavender-purple-theme",
+  "displayName": "Lavender Purple Theme",
+  "description": "A soft, dreamy and aesthetic purple theme collection for Visual Studio Code — with broad language syntax support (TypeScript, React/TSX, Python, Go, Rust, C/C++, C#, Java, PHP, Ruby, Dart/Flutter, Swift, SQL, HTML/CSS/SCSS, Markdown, and more).",
+  "version": "1.4.0",
+  "publisher": "bokkishita",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1E1B2E",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lavender Dark 1",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lavender Dark1-color-theme.json"
+      },
+      {
+        "label": "Lavender Dark 2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lavender Dark2-color-theme.json"
+      },
+      {
+        "label": "Lavender Light",
+        "uiTheme": "vs",
+        "path": "./themes/Lavender Light-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoshiko9011/lavender-theme.git"
+  },
+  "keywords": [
+    "lavender",
+    "purple",
+    "theme",
+    "dark",
+    "light",
+    "aesthetic",
+    "soft",
+    "dreamy",
+    "cozy",
+    "color-theme",
+    "lavender-theme",
+    "purple-theme",
+    "typescript",
+    "react",
+    "tsx",
+    "javascript",
+    "python",
+    "rust",
+    "go",
+    "java",
+    "csharp",
+    "c",
+    "cpp",
+    "php",
+    "ruby",
+    "dart",
+    "flutter",
+    "swift",
+    "sql",
+    "html",
+    "css",
+    "scss",
+    "markdown"
+  ],
+  "author": "hoshiko9011",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoshiko9011/lavender-theme/issues"
+  },
+  "homepage": "https://github.com/hoshiko9011/lavender-theme#readme",
+  "badges": [
+    {
+      "url": "https://img.shields.io/badge/theme-lavender-purple",
+      "href": "https://github.com/hoshiko9011/lavender-theme",
+      "description": "Lavender Purple Theme"
+    }
+  ]
+}
